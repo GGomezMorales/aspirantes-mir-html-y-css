@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+.containerform{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+    background: linear-gradient(#bd09b7,#6b4cf5);
+    box-shadow: 5px 5px 10px 4px #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerform div {
+    width: 100%;
+    padding: 7px;
+}
+
+.containerform div input{
+    width: 90%;
+    padding: 7px;
+}
+.containerform div select {
+    width: 96%;
+    padding: 7px;
+}
+
+.containerform div input[type="checkbox"]{
+    width: auto;
+}
+.containerform div input[type="submit"]{
+    width: auto;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 200px;
+}
+
+@media (min-width: ){
+    .containerform{
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+        color: white;
+        background: linear-gradient(#bd09b7,#6b4cf5);
+        box-shadow: 5px 5px 10px 4px #333333;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .containerform div {
+        width: 300px;
+        padding: 7px;
+    }
+    
+    .containerform div input{
+        width: 90%;
+        padding: 7px;
+    }
+    .containerform div select {
+        width: 96%;
+        padding: 7px;
+    }
+    
+    .containerform div input[type="checkbox"]{
+        width: auto;
+    }
+    .containerform div input[type="submit"]{
+        width: auto;
+        cursor: pointer;
+        padding: 5px 15px;
+        margin-left: 200px;
+    }
+}

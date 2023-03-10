@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="containerform">
+        <h1>Login</h1>
+        <form autocomplete="off">
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required> 
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="genero">Género</label><br>
+                <select name="genero" id="genero" required>
+                    <option selected="true" value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="terminos">
+                <label for="terminos"> Acepto los términos</label>
+            </div>
+            <div>
+                <input type="submit" value="Ingresar">
+            </div>  
+            
+        </form>
+    </div>
 </body>
 </html>
